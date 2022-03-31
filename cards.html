@@ -1,0 +1,100 @@
+index.html line 86: sostituisci
+
+<section class="polaroid-container">
+    <div class="polaroid">
+        <a href="http://www.gettyimages.com/detail/3066353" target="blank" title="Bletchley Park"><img src="imgitems/bletchley.jpg" alt="Bletchley Park" style="width:100%" class="polaroidimg">
+        <div class="polartext">Bletchley Park</div></a>
+        <div class="polartextcomm">Photograph of Bletchley Park, centre of the british "Government Code of Cypher School" during World War II</div>
+    </div>
+    <div class="polaroid">
+        <a href="https://collection.sciencemuseumgroup.org.uk/objects/co35752/three-ring-enigma-cypher-machine-in-oak-wood-transit-case-cipher-machine" target="blank" title="Enigma"><img src="imgitems/enigma.jpg" alt="Enigma" style="width:100%" class="polaroidimg">
+        <div class="polartext">Enigma</div></a>
+        <div class="polartextcomm">Three-ring Enigma machine used during World War II by Germany and its allies to encrypt military messages</div>
+      </div>
+    <div class="polaroid">
+        <a href="https://www.npg.org.uk/collections/search/portrait/mw165875/Alan-Turing?LinkID=mp18700&role=sit&rNo=0" target="blank" title="Alan Turing"><img src="imgitems/portrait.png" alt="Alan Turing Portrait" style="width:100%" class="polaroidimg">
+        <div class="polartext">Alan Turing Portrait</div></a>
+        <div class="polartextcomm">Portrait of Alan Turing took few years before his death and donate to the National Portrait Gallery by his mother</div>
+    </div>
+     <div class="polaroid">
+        <a href="https://discovery.nationalarchives.gov.uk/details/r/0ae1a064-ccc7-4b2a-945a-de5180d8d6c7" target="blank" title="Treatise on the Enigma"><img src="imgitems/treatise.png" alt="Treatise on the Enigma" style="width:100%" class="polaroidimg">
+        <div class="polartext">Treatise on the Enigma</div></a>
+        <div class="polartextcomm">Photocopied typescript of Alan Turing's note on the deciphering of Enigma</div>                             
+    </div>
+    <div class="polaroid">
+        <a href="https://catalog.princeton.edu/catalog/9968722273506421" target="blank" title="Breaking the Code"><img src="imgitems/movie.jpg" alt="Breaking the Code" style="width:100%" class="polaroidimg">
+        <div class="polartext">Breaking the Code</div></a>
+        <div class="polartextcomm">End of the 90s movie retracing Turing's life from his cryptographic activities during World War II to his death</div>
+    </div>
+    <div class="polaroid">
+        <a href="http://id.sbn.it/bid/MIL0885778" target="blank" title="The Imitation Game Original Soundtrack"><img src="imgitems/ost.jpg" alt="The Imitation Game Original Soundtrack" style="width:100%" class="polaroidimg">
+        <div class="polartext">The Imitation Game Original Soundtrack</div></a>
+        <div class="polartextcomm">Alexander Desplat's mesmerizing soundtrack accompanying "The Imitation Game"</div>
+    </div>
+    <div class="polaroid">
+        <a href="https://www.google.com/doodles/alan-turings-100th-birthday" target="blank" title="Google Doodle 100th Birthday"><img src="imgitems/google1.png" alt="Google Doodle 100th Birthday" style="width:100%" class="polaroidimg">
+        <div class="polartext">Google Doodle 100th Birthday</div></a>
+        <div class="polartextcomm">Interactive Doodle realized by Google to celebrate the centenary of Turing's birth in 2012</div>
+    </div>
+    <div class="polaroid">
+        <a href="http://id.sbn.it/bid/UBO3973233" target="blank" title="Graphic Novel Enigma"><img src="imgitems/graphicnovel.jpg" alt="Graphic Novel Enigma" style="width:100%" class="polaroidimg">
+        <div class="polartext">Graphic Novel Enigma</div></a>
+        <div class="polartextcomm">Italian Graphic Novel by Tuono Pettinato focusing on the personal aspect of Turing's life and his undecryptable personality</div>
+    </div>
+    <div class="polaroid">
+        <a href="https://www.english-heritage.org.uk/visit/blue-plaques/alan-turing/" target="blank" title="Plaque"><img src="imgitems/plaque.jpg" alt="Plaque" style="width:100%" class="polaroidimg">
+        <div class="polartext">Plaque Alan Turing</div></a>
+        <div class="polartextcomm">Blue Plaque erected in 1998 by English Heritage to commemorate Turing's pioneering contributions</div>
+    </div>
+    <div class="polaroid">
+        <a href="http://videolectures.net/turing100_cooper_furber_opening/" target="blank" title="Centenary Conference"><img src="imgitems/conference.png" alt="Centenary Conference" style="width:100%" class="polaroidimg">
+        <div class="polartext">Centenary Conference</div></a>
+        <div class="polartextcomm">Set of Conferences held in Manchester celebrating Turing's 100th Birthday in 2012</div>
+    </div>
+ </section>
+ 
+ <!-- POLAROID CSS! IN STYLES.CSS, LINE 11474-11517 SOSTITUISCI -->
+ .polaroid-container{
+	padding-left:40px;
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.polaroid {
+	width: 80%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+  border-radius: 10px;
+}
+.polaroid a{
+  color:black;
+  text-decoration: none;
+}
+.polaroidimg{
+	width: 100%;
+	object-fit: cover;
+	height: 13vw;
+  padding: 5px;
+  padding-color:white;
+  border-radius: 10px;
+
+}
+.polartext {
+	text-align: center;
+	padding: 5px 15px;
+  font-family:"Merriweather", serif;
+  font-weight: 700;
+}
+.polartextcomm {
+  text-align: center;
+  padding: 7px 20px;
+  font-size: 10pt;
+}
+
+.polaroidimg:hover {
+	opacity:0.2;
+	transition: .5s ease;
+}
+.show {
+	display: block;
+}
