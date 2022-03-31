@@ -9,6 +9,7 @@ base <https://w3id.org/alodturing>.
 @prefix schema: <http://schema.org/>.
 @prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
 
+	#ITEM PHOTOGRAPH OF BLETCHLEY PARK
 <https://w3id.org/alodturing/item/photo-bletchley-park> a crm:E22_Human-Made_Object ; 
 	rdfs:label "Photograph of Bletchley Park" ;
 	owl:sameAs <http://www.gettyimages.com/detail/3066353> ;  #URI for 'Photograph of Bletchley Park'
@@ -65,6 +66,7 @@ base <https://w3id.org/alodturing>.
 	rdfs:label "University of Cambridge" ;
 	owl:sameAs <http://viaf.org/viaf/153568718> .
 
+	#ITEM TREATISE ON THE ENIGMA
 <https://w3id.org/alodturing/item/treatise-enigma> a crm:E24_Physical_Human-Made_Thing ; 
 	rdfs:label "Treatise on the Enigma" ;
 	owl:sameAs <https://discovery.nationalarchives.gov.uk/details/r/0ae1a064-ccc7-4b2a-945a-de5180d8d6c7> ;
@@ -88,6 +90,7 @@ base <https://w3id.org/alodturing>.
 <https://w3id.org/alodturing/event/world-war-ii> a crm:E5_Event ; 
 	rdfs:label "World War II" .
 
+	#THREE-RING ENIGMA CYPHER MACHINE
 <https://w3id.org/alodturing/item/enigma-machine> a crm:E24_Physical_Human-Made_Thing ; 
 	rdfs:label "Three-ring Enigma cypher machine" ;
 	owl:sameAs <https://collection.sciencemuseumgroup.org.uk/objects/co35752/three-ring-enigma-cypher-machine-in-oak-wood-transit-case-cipher-machine> ;
