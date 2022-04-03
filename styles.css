@@ -12649,15 +12649,17 @@ button {
   text-align: center;
   font-weight: 700;
 }
-.openmodalmyBtn {
+.openmodalmyBtn, .newtabmyBtn {
   font-size: 13px;
   font-weight: 650;
   background-color: #fee4b2;
-  margin-bottom: 10px;
+  margin-top: 10px;
   padding:5px;
   border-color: #e4cda0;
+  float:right;
 }
 .openmodalmyBtn:hover {
   background-color: #e4cda0;
 }
+
 /*END MODALS*/
