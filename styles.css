@@ -12663,3 +12663,11 @@ button {
 }
 
 /*END MODALS*/
+
+.downloadzip {
+  color: #e4cda0;
+  font-weight: 700;
+}
+.downloadzip:hover {
+  color: #fee4b2;
+}
