@@ -12310,6 +12310,11 @@ section {
   text-shadow: 2px 2px 12px #000000;
 }
 
+#mailbutton {
+  color: #cda24c;
+  font-size: 48px;
+}
+
 /* PARALLAX HEADER */
 .parallaxhead {
   /* The image used */
