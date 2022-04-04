@@ -12429,7 +12429,7 @@ section {
 .rightfloatimg {
   float:right;
   max-width: 450px;
-  margin:10px 5px 20px 30px;
+  margin:5px 5px 20px 30px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -12439,7 +12439,9 @@ section {
   margin:5px 30px 30px 5px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
 }
-
+.floatimgalign {
+  vertical-align:middle;
+}
 
 /* CSS polaroid ITEM */
 .polaroid-container {
