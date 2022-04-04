@@ -12436,25 +12436,49 @@ section {
   .navbar .nav-item .dropdown-menu {
     margin-top: 0;
   }
+
+  /*FLOATING IMAGES DOMAIN*/
+  .rightfloatimg {
+    float: right;
+    max-width: 450px;
+    margin: 0px 5px 20px 30px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .leftfloatimg {
+    float: left;
+    max-width: 450px;
+    margin: 0px 30px 30px 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .floatimgalign {
+    display: flex;
+    align-items: middle;
+  }
 }
 
-/*FLOATING IMAGES DOMAIN*/
-.rightfloatimg {
-  float:right;
-  max-width: 450px;
-  margin:0px 5px 10px 30px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
-}
+@media all and (max-width: 992px) {
+    /*FLOATING IMAGES DOMAIN*/
+    .rightfloatimg {
+      float: center;
+      max-width: 450px;
+      margin: 0px 5px 20px 30px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+    }
+  
+    .leftfloatimg {
+      float: center;
+      max-width: 450px;
+      margin: 0px 30px 30px 5px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+    }
+  
+    .floatimgalign {
+      display: block;
+      align-items: middle;
+    }
 
-.leftfloatimg {
-  float:left;
-  max-width: 450px;
-  margin:0px 30px 10px 5px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
-}
-.floatimgalign {
-  display:flex;
-  align-items: middle;
 }
 
 /* CSS polaroid ITEM */
