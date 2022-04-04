@@ -12442,14 +12442,14 @@ section {
 .rightfloatimg {
   float:right;
   max-width: 450px;
-  margin:0px 5px 20px 30px;
+  margin:0px 5px 10px 30px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
 }
 
 .leftfloatimg {
   float:left;
   max-width: 450px;
-  margin:0px 30px 30px 5px;
+  margin:0px 30px 10px 5px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
 }
 .floatimgalign {
@@ -12625,10 +12625,6 @@ button {
   border-radius: 10px;
 }
 
-.emailscapolotte {
-  font-size: 10px;
-  text-align: center;
-}
 
 /* CSS FOOTER */
 
@@ -12713,11 +12709,4 @@ footer a:hover  {
 .downloadzip:hover {
   color: #d2ac60;
 }
-.emailscapolotte {
-  color: #cda24c;
-  text-decoration:none;
-}
-.emailscapolotte:hover {
-  color: #d2ac60;
-  text-decoration:none;
-}
+
