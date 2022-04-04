@@ -12283,6 +12283,14 @@ section {
   padding-top: 2rem;
 }
 
+.teamtitle {
+  color: #000000;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 25pt;
+  padding-top: 0rem;
+}
+
 .quote {
   color: #000000;
   font-family: 'Merriweather', serif;
