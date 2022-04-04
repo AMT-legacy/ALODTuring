@@ -12693,7 +12693,9 @@ button {
 }
 .emailscapolotte {
   color: #cda24c;
+  text-decoration:none;
 }
 .emailscapolotte:hover {
   color: #d2ac60;
+  text-decoration:none;
 }
