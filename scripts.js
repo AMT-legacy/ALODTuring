@@ -152,15 +152,6 @@ function magnify(imgID, zoom) {
   }
 }
 
-/* Initiate Magnify Function
-with the id of the image, and the strength of the magnifier glass:*/
-magnify("myimage", 2);
-magnify("myimage1", 2);
-magnify("myimage2", 2);
-magnify("myimage3", 3);
-magnify("myimage4", 7);
-magnify("myimage5", 2);
-
 /*MODALS ZOOM IMAGE*/
 var modals = document.getElementsByClassName('modalmyModal');
 // Get the button that opens the modal
