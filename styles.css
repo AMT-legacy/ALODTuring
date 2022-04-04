@@ -12428,12 +12428,16 @@ section {
 /*FLOATING IMAGES DOMAIN*/
 .rightfloatimg {
   float:right;
-  max-width: 300px;
+  max-width: 450px;
+  margin:10px 10px 10px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .leftfloatimg {
   float:left;
-  max-width: 300px;
+  max-width: 450px;
+  margin:10px 30px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
