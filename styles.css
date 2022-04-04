@@ -12425,6 +12425,18 @@ section {
   }
 }
 
+/*FLOATING IMAGES DOMAIN*/
+.rightfloatimg {
+  float:right;
+  max-width: 300px;
+}
+
+.leftfloatimg {
+  float:left;
+  max-width: 300px;
+}
+
+
 /* CSS polaroid ITEM */
 .polaroid-container {
   padding-left: 40px;
