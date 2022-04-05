@@ -12738,10 +12738,12 @@ footer a:hover  {
   color: #d2ac60;
 }
 
-.tab_meta_align a {
+/*meta documentation*/
+.metadoc {
   color: #cda24c;
   font-weight: 700;
+  text-decoration: none;
 }
-.tab_meta_align a:hover {
-   color: #d2ac60;
+.metadoc:hover {
+  color: #d2ac60;
 }
